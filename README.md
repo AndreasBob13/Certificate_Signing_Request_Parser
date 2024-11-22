@@ -6,3 +6,9 @@ The implementation uses the following technologies:
 - **Frontend:** A JavaScript-based application for visualizing the data in the dashboard.  
 
 The goal is to create a user-friendly and efficient solution for processing and displaying CSR files.  
+
+How to generate the CSR File with help of openssl. 
+
+openssl req -new -newkey rsa:2048 -nodes -keyout private.key -out certificate.csr
+
+
