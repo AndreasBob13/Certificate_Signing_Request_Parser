@@ -150,7 +150,7 @@ public class ParsCsrService {
                 result.add(nameMappings.get(rdnType) + "= " + rdnValue);
                 log.trace("Processed RDN: {}= {}", nameMappings.get(rdnType), rdnValue);
             } else {
-                log.debug("Following Subject  name Id: " + rdnType + " not present");
+                log.debug("Following Subject  name Id: {} not present", rdnType);
             }
         }
         return result;

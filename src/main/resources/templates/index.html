@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata about the document -->
+    <meta charset="UTF-8"> <!-- Set character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Enable responsive design -->
+    <title>Upload a Single File</title> <!-- Page title -->
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Link to external JavaScript file -->
+    <script src="/js/upload.js" defer></script>
+</head>
+<body>
+<!-- Page heading -->
+<h1>Upload a Single File</h1>
+
+<!-- File input and upload button -->
+<input type="file" id="fileInput" accept="*/*"> <!-- File input field -->
+<button id="uploadButton">Upload</button> <!-- Button to trigger the upload -->
+
+<!-- Status message -->
+<p id="message">Status will be displayed here.</p>
+
+<!-- Section for displaying parsed CSR data -->
+<div>
+    <h3>CSR Data</h3>
+    <p><strong>Subject:</strong> <span id="subject">-</span></p> <!-- Placeholder for subject -->
+    <p><strong>Public Key Algorithm:</strong> <span id="publicKeyAlgorithm">-</span></p> <!-- Placeholder for algorithm -->
+    <p><strong>Subject Alternative Names:</strong> <span id="subjectAltName">-</span></p> <!-- Placeholder for alternative names -->
+</div>
+</body>
+</html>

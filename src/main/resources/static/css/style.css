@@ -1,0 +1,55 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* Heading style */
+h1 {
+    color: #333;
+}
+
+/* Button styles */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+/* File input spacing */
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+/* Message styling */
+#message {
+    color: #555;
+    font-style: italic;
+}
+
+/* Section styles */
+div {
+    margin-top: 20px;
+}
+
+/* Paragraph styling */
+p {
+    margin: 5px 0;
+}
+
+/* Highlight for strong text */
+strong {
+    color: #000;
+}
+
+/* Span text color */
+span {
+    color: #007BFF;
+}
